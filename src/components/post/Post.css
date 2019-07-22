@@ -1,0 +1,33 @@
+.post-container {
+    padding: 25px;
+    border-bottom: solid 1px #eee;
+    border-left: solid 2px #fff;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.post-container-bluenove:hover {
+    border-left-color: #5c0ed8;
+}
+
+.post-container-other:hover {
+  border-left-color: #028ae0;
+}
+
+.post-title {
+  margin: 1rem 0 .8rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.post-title-bluenove {
+  color: #5c0ed8;
+}
+
+.post-title-other {
+  color: #028ae0;
+}
+
+.post-content {
+    color: #545454;
+}

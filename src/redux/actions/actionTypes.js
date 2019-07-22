@@ -1,0 +1,7 @@
+export const ADD_POST = 'ADD_POST';
+export const FETCH_POSTS = 'FECTH_POSTS'
+export const SET_POST_ID = 'SET_POST_ID'
+export const INCREMENT_POST_ID = 'INCREMENT_POST_ID'
+export const POST_STATUS_OK = 'POST_STATUS_OK'
+export const POST_STATUS_ERROR = 'POST_STATUS_ERROR'
+export const APPLY_THEME = "APPLY_THEME"

@@ -1,0 +1,46 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 1.5rem 0;
+}
+  
+.form-control--fluid {
+    width: 100%;
+}
+
+label {
+  margin-bottom: .6rem;
+}
+
+.form-group-bluenove label {
+    color: #5c0ed8;
+}
+
+.form-group-other label {
+  color: #028ae0
+}
+
+textarea.form-control {
+    height: 80px;
+    resize: vertical;
+}
+
+textarea.form-control, 
+input.form-control {
+    border: solid 1px #fff;
+    padding: 15px;
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+textarea.form-control:focus, 
+input.form-control:focus  {
+    outline: none;
+}
+
+.form-actions {
+    justify-content: flex-end;
+    display: flex;
+    margin: 2rem 0;
+    flex-grow: 1;
+}

@@ -1,0 +1,8 @@
+.switch-container {
+  display: flex;
+  padding: 0 2rem;
+}
+
+.switch-label {
+  margin-right: .5rem;
+}
