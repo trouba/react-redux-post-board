@@ -10,7 +10,7 @@ class ThemeSwitch extends Component {
 
     this.state = {
       currentTheme: this.props.theme,
-      themes: ['bluenove', 'other']
+      themes: ['default', 'other']
     }
   }
 
@@ -28,7 +28,7 @@ class ThemeSwitch extends Component {
       <div className="switch-container">
         <div className="switch-label">Switch theme</div>        
         <select value={this.state.currentTheme} onChange={this.handleSelectChange} className="switch-select">
-          <option value="bluenove">Bluenove</option>
+          <option value="default">Default</option>
           <option value="other">Other</option>  
         </select>
       </div>

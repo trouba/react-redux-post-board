@@ -11,7 +11,7 @@
     outline: none;
 }
 
-.button-bluenove {
+.button-default {
   color: #5c0ed8;
   background: transparent;
   border-color: #44edac;
@@ -19,13 +19,13 @@
   border-width: 2px;
 }
 
-.button-bluenove:hover, .button-bluenove:active {
+.button-default:hover, .button-default:active {
   color: #fff;
   background-color: #5c0ed8;
   cursor: pointer;
 }
 
-.button-bluenove:active {
+.button-default:active {
   border-style: solid;
   background-color: #2b0765;
 }
@@ -38,13 +38,13 @@
   border-width: 2px;
 }
 
-.button-bluenove:hover, .button-bluenove:active {
+.button-default:hover, .button-default:active {
   color: #fff;
   background-color: #036fb3;
   cursor: pointer;
 }
 
-.button-bluenove:active {
+.button-default:active {
   border-style: solid;
   background-color: #036fb3;
 }
