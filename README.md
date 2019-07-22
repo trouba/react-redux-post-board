@@ -2,7 +2,7 @@ This app is a simple local message board:
 - current list is populated by messages from https://jsonplaceholder.typicode.com/posts
 - you can add messages, the will appear at the end of the current list
 - there is a 30% chance error when submitting message to simulate success/failure
-- you can change the theme of the app with the theme switcher in the hedear
+- you can change the theme of the app with the theme switcher in the header
 
 ---
 
